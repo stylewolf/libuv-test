@@ -1,0 +1,2 @@
+#cmakedefine USE_EASYLOG
+#cmakedefine OS_NAME arm

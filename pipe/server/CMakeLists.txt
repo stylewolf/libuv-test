@@ -1,0 +1,5 @@
+project(uc-pipe-server)
+AUX_SOURCE_DIRECTORY(. DIR_SRCS)
+include(../../third-config.cmake)
+add_library(${PROJECT_NAME} ${DIR_SRCS} )
+target_link_libraries(${PROJECT_NAME} uc-pipe-base dl pthread rt)
